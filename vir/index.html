@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>VIR</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="w3-light-grey">
+        <div id="myBar" class="w3-container w3-green" style="height:24px;width:1%">DOWNLOADING</div>
+      </div>
+      
+      <button class="w3-button w3-light-grey" onclick="move()">Click Me</button>
+      
+      <script>
+      function move() {
+        var elem = document.getElementById("myBar");
+        var width = 1;
+        var id = setInterval(frame, 10);
+        function frame() {
+          if (width >= 100) {
+            clearInterval(id);
+            alert("DOWNLOADED: 100%");
+          } else {
+            width++;
+            elem.style.width = width + '%';
+          }
+        }
+      }
+      </script>
+</body>
+</html>

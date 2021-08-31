@@ -17,12 +17,13 @@
       <br>
       <br>
         <div class="w3-light-grey">
-            <div id="myBar" class="w3-container w3-green" style="height:24px;width:1%">DOWNLOADING</div>
+            <div id="myBar" class="w3-container w3-green" style="height:50px;width:1%;text-align: center;border-radius: 3px;"></div>
         </div>
       
       <script>
       function move() {
         var elem = document.getElementById("myBar");
+        elem.innerText = "DOWNLOADING";
         var width = 1;
         var id = setInterval(frame, 10);
         function frame() {

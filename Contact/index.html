@@ -3,13 +3,16 @@
     <head>
         <meta favicon='../Logo/LogoSmall-white.png'>
         <link rel="shortcut icon" type="image/jpg" href="../Logo/LogoSmall-white.png"/>
-        <link rel="stylesheet" href="/universal_styles.css">
         <script src="/universal_scripts.js"></script>
         <script src="scripts.js"></script>
         <title>Contact - Ari Weber</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel='stylesheet' href='/universal_styles.css'>
+        <link rel='stylesheet' href='styles.css'>
+        <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
         <style>
             .main-form {
                 border-radius: 6px;
@@ -25,9 +28,27 @@
         </style>
     </head>
     <body>
-        <div class="w3-container w3-red">
-            <h1><a href="../"><i class="w3-xxlarge fa fa-home"></i></a>   Contact Us</h1>
-        </div>
+        <div class='w3-top'>
+            <div class='w3-bar w3-red w3-card w3-left-align w3-large'>
+              <a class='w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red' href='javascript:void(0);' onclick='myFunction()' title='Toggle Navigation Menu'><i class='fa fa-bars'></i></a>
+              <a href='/' class='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white'>Home</a>
+              <a href='/Contact' class='w3-bar-item w3-button w3-padding-large w3-white'>Contact</a>
+              <a href='/Projects' class='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white'>Projects</a>
+              <a href='#' class='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white'>Link 3</a>
+              <a href='#' class='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white'>Link 4</a>
+            </div>
+          
+            <!-- Navbar on small screens -->
+            <div id='navDemo' class='w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large'>
+              <a href='/' class='w3-bar-item w3-button w3-padding-large'>Home</a>
+              <a href='/Projects' class='w3-bar-item w3-button w3-padding-large'>Projects</a>
+              <a href='#' class='w3-bar-item w3-button w3-padding-large'>Link 3</a>
+              <a href='#' class='w3-bar-item w3-button w3-padding-large'>Link 4</a>
+            </div>
+          </div>
+          <div class="w3-container w3-red" style="padding-top: 40px;">
+            <h1>Contact</h1>
+          </div>
         <em>
             <form action="https://formspree.io/f/xyylzwav" method="POST" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin main-form">
             <div class="w3-row w3-section">

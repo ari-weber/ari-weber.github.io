@@ -1,10 +1,11 @@
 /* Place your CSS styles in this file */
 @font-face {
-    font-family: font;
-    src: url(font.woff);
+    font-family: main;
+    src: url(/font.woff);
 }
-* {
-    font-family: font;
+
+*:not(.fa) {
+    font-family: main !important;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -27,8 +28,8 @@
 }
 
 .w3-dark-gray .w3-dark-grey{
-    color: #fff!important;
-    background-color: #666666!important;
+    color: #fff;
+    background-color: #666666;
 }
 
 .rounded{

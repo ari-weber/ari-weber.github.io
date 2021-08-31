@@ -31,6 +31,10 @@
     background-color: #666666!important;
 }
 
+.rounded{
+    border-radius: 10px;
+}
+
 body { 
     opacity: -10;
     transition: opacity .8s;

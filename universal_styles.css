@@ -30,3 +30,8 @@
     color: #fff!important;
     background-color: #666666!important;
 }
+
+body { 
+    opacity: -10;
+    transition: opacity .8s;
+}

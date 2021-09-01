@@ -10,7 +10,7 @@ fetch(url, {
     return res.json()
   }).then((json) => {
     console.log(json);
-    let text = "Quote of the Day: " + json.contents.quotes[0].quote;
+    let text = "Quote of the Day: " + json.contents.quotes[0].quote + " - " + json.contents.quotes[0].author;
     console.log(text);
     box.innerHTML = text;
   });

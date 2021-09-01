@@ -36,7 +36,11 @@
     border-radius: 10px;
 }
 
-body { 
+body {
     opacity: -10;
     transition: opacity .8s;
+}
+.w3-top{
+    opacity: 1;
+    transition: opacity 0s;
 }

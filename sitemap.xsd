@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://ari-999.github.io/Projects</loc>
+    <loc>http://ari-weber.github.io/</loc>
   </url>
   <url>
-    <loc>http://ari-999.github.io/Contact</loc>
+    <loc>https://ari-weber.github.io/Projects/</loc>
+  </url>
+  <url>
+    <loc>https://ari-weber.github.io/Contact/</loc>
   </url>
 </urlset>

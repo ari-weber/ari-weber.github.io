@@ -7,7 +7,7 @@ grid {
     justify-content: center;
 }
 gridItem {
-    padding: 20px;
+    padding-top: 20px;
     text-align: center;
     align-items: center;
     width: 300px;

@@ -1,7 +1,6 @@
 grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 10px;
     align-items: center;
     text-align: center;
     justify-content: center;

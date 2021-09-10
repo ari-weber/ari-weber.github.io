@@ -32,6 +32,10 @@
     background-color: #666666;
 }
 
+.w3-text-dark-gray .w3-text-dark-grey{
+    color: #fff;
+}
+
 .rounded{
     border-radius: 10px;
 }

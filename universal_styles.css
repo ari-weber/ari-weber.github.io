@@ -1,7 +1,7 @@
 /* Place your CSS styles in this file */
 @font-face {
     font-family: main;
-    src: url(/font.woff);
+    src: url(/2_font.woff);
 }
 
 *:not(.fa) {

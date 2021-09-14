@@ -1,14 +1,16 @@
 grid {
     display: grid;
     grid-template-columns: auto auto auto;
-    align-items: center;
+    /*align-items: center;*/
     text-align: center;
     justify-content: center;
 }
 gridItem {
     padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
     text-align: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
 }

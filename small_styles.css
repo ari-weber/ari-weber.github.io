@@ -1,29 +1,24 @@
 grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1 1 1;
     text-align: center;
     justify-content: center;
-}
-@media screen and (max-width: 600px) {
-    grid {
-        grid-template-columns: 1 1 1;
-    }
 }
 .class {
     text-align: auto;
 }
 #gridSmallScreen {
     display: grid;
-    grid-template-columns: 1 auto auto;
+    grid-template-columns: 1 1 1;
     text-align: center;
     justify-content: center;
 }
 gridItem {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-right: 50px;
     padding-left: 50px;
     text-align: center;
     align-items: center;
     width: 400px;
-    height: 350px;
+    height: 250px;
 }

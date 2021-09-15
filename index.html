@@ -10,7 +10,8 @@
         <script src='scripts.js'></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel='stylesheet' href='universal_styles.css'>
-        <link rel='stylesheet' href='styles.css'>
+        <link rel='stylesheet' media="screen and (max-width: 710px)" href='small_styles.css'>
+        <link rel='stylesheet' media="screen and (min-width: 710px)" href='styles.css'>
         <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato'>
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
@@ -64,7 +65,7 @@
             <div class='w3-content' style='text-align: center; align-items: center;'>
               <div>
                 <h1>Development Services</h1>
-                <grid id="grid">
+                <grid id="grid" class="class">
                   <gridItem>
                     <h5 class="w3-xlarge">
                       Game Development
@@ -76,6 +77,7 @@
                     </h5>
                     <p class='w3-text-grey w3-large'>I am experienced in game design using Unity with C#.</p>
                   </gridItem>
+                  <br>
                   <gridItem>
                     <h5 class="w3-xlarge">
                       Web Development

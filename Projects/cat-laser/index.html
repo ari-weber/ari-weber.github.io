@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta favicon='../Logo/LogoSmall-white.png'>
+        <link rel='shortcut icon' type='image/jpg' href='/Logo/LogoSmall-white.png'/>
+        <title>Projects - Ari Weber</title>
+        <meta name='viewport' content='width=device-width', initial-scale='1'>
+        <link rel='stylesheet' href='/universal_styles.css'>
+        <link rel='stylesheet' href='styles.css'>
+        <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato'>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <script src="/universal_scripts.js"></script>
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+      <div class='w3-top'>
+        <div class='w3-bar w3-red w3-card w3-left-align w3-large'>
+<a class='w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red' href='javascript:void(0);' onclick='myFunction()' title='Toggle Navigation Menu'><i class='fa fa-bars'></i></a>
+          <a href='/' class='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white'>Home</a>
+          <a href='/Contact' class='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white'>Contact</a>
+          <a href='/Projects' class='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white'>Projects</a>
+          <!--<a href='#' class='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white'>Link 3</a>-->
+              <!--<a href='#' class='w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white'>Link 4</a>-->
+        </div>
+        <!-- Navbar on small screens -->
+        <div id='navDemo' class='w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large'>
+          <a href='/' class='w3-bar-item w3-button w3-padding-large'>Home</a>
+          <a href='/Contact' class='w3-bar-item w3-button w3-padding-large'>Contact</a>
+          <a href='/Projects' class='w3-bar-item w3-button w3-padding-large'>Projects</a>
+          <!--<a href='#' class='w3-bar-item w3-button w3-padding-large'>Link 3</a>-->
+          <!--<a href='#' class='w3-bar-item w3-button w3-padding-large'>Link 4</a>-->
+        </div>
+      </div>
+      <div class="w3-container w3-red" style="padding-top: 40px;">
+        <h1>Automated Cat Laser</h1>
+      </div>
+      <br>
+      <div class="w3-content w3-large w3-light-grey rounded" style="line-height: 2; padding: 20px; padding-top: 20px; height: 500px;">
+        I built this toy using and Arduino, a laser diode, two servo motors, and a joystick. The two servo motors allow <img src="/Images/construction.jpg" style="width:30%; float: right; padding: 1%;"> it to have biaxial motion, allowing control of the X and Y coordinates of the laser for precise pointing. The range of motion is adjustable in the code, to account for distance to the target surface. The laser moves to random coordinates, unless Joystick Mode is enabled. There is a switch to enable joystick mode, and when it is activated, the laser will <img src="/Images/construction.jpg" style="width:30%; float: left; padding: 1%;"> be controlled by the attatched joystick. The code can be found at: <a href='https://github.com/ari-weber/Arduino/tree/main/laser_FINAL'> https://github.com\ari-weber/Arduino/tree/main/laser_FINAL </a>
+      </div>
+    </body>
+</html>

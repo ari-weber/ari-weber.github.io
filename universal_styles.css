@@ -4,7 +4,7 @@
     src: url(/2_font.woff);
 }
 
-*:not(.fa) {
+*:not(.fa):not(.fab):not(.fas) {
     font-family: main !important;
 }
 /* width */

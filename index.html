@@ -13,6 +13,8 @@
         <meta favicon='Logo/LogoSmall-white.png'>
         <link rel='shortcut icon' type='image/jpg' href='Logo/LogoSmall-white.png'/>
         <title>Home - Ari Weber</title>
+        <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src='/appear.js'></script>
         <script src='universal_scripts.js'></script>
         <script src='scripts.js'></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -73,7 +75,7 @@
             <div class='w3-content' style='text-align: center; align-items: center;'>
               <div>
                 <h1>Development Services</h1>
-                <grid id="grid" class="class">
+                <grid id="grid" class="class grid">
                   <gridItem>
                     <h5 class="w3-xlarge">
                       Game Development
@@ -97,7 +99,7 @@
                     <p class='w3-text-grey w3-large'>I am experienced with website design and development, using HTML, CSS, and JavaScript.</p>
                   </gridItem>
                   <gridItem style="padding-bottom: 300px;">
-                    <h5 class="w3-xlarge">
+                    <h5 class="w3-xlarge" id="scrollPoint">
                       Other
                       <br>
                       <span id='rightIcon' class="fa-stack fa-2x fa-lg" style="font-size: 60px;">
@@ -113,7 +115,7 @@
           </div>
           
           <div id='footer' class='w3-container w3-dark-gray w3-center w3-padding-32'>
-              <h1 class='w3-margin w3-large'><x id='quoteBox'>Sorry, but Quote Of The Day is missing!</x></h1>
+              <h1 class='w3-margin w3-large' id="QuScrollPoint"><x id='quoteBox'>Sorry, but Quote Of The Day is missing!</x></h1>
               <script src='quote.js'></script>
           </div>
     </body>

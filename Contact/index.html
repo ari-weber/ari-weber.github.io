@@ -12,7 +12,7 @@
         <meta favicon='../Logo/LogoSmall-white.png'>
         <link rel="shortcut icon" type="image/jpg" href="../Logo/LogoSmall-white.png"/>
         <script src="/universal_scripts.js"></script>
-        <script src="scripts.js"></script>
+        <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
         <title>Contact - Ari Weber</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel='stylesheet' href='/universal_styles.css'>
@@ -89,9 +89,19 @@
                     <input class="w3-input w3-border double-height" name="message" type="text" placeholder="Message" required>
                 </div>
             </div>
+            <div class="w3-row w3-section">
+                <hide>
+                    <div class="w3-col" style="width:50px"><i class="w3-text-red w3-xxlarge fa fa-pencil">
+                    </i></div>
+                    <div class="w3-rest">
+                        <input id="ip" class="w3-input w3-border double-height" name="ip" type="text" placeholder="ip" required>
+                    </div>
+                </hide>
+            </div>
             <p class="w3-center">
                 <button style="border-radius: 10%; " class="w3-large w3-button w3-section w3-red w3-ripple"> Send </button>
             </p>
+            <script src="scripts.js"></script>
             </form>
         </em>
     </body>

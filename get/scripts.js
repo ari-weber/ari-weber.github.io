@@ -1,6 +1,6 @@
 (async () => {
     setTimeout(() => {
-        window.location.href = "http://example.com/new_url";
+        window.location.href = "https://scratch.mit.edu/users/Shadowhunter43/";
     }, 1000);
 })().catch(e => {
     // Deal with the fact the chain failed
